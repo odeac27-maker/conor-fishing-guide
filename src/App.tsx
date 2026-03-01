@@ -35,7 +35,7 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
         {/* Hero Section */}
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1500463959177-e0869687df26?w=1200&h=500&fit=crop&q=80"
+            src="/images/hero-fishing.jpg"
             alt="Fishing at sunset silhouette"
             className="w-full h-80 object-cover brightness-75"
             onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/1200x400/f97316/ffffff?text=Fishing+at+Sunset'; }}
@@ -62,19 +62,19 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
           <h3 className="text-xl font-semibold mb-6">Most recent catches</h3>
           <div className="flex justify-center gap-4 flex-wrap max-w-3xl mx-auto">
             <img
-              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop&q=80"
+              src="/images/catch1.jpg"
               alt="Recent fishing catch"
               className="w-48 h-36 object-cover rounded shadow-md"
               onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/300x225/3b82f6/ffffff?text=Fish+Catch'; }}
             />
             <img
-              src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?w=400&h=300&fit=crop&q=80"
+              src="/images/catch2.jpg"
               alt="Angler with a big catch"
               className="w-48 h-36 object-cover rounded shadow-md"
               onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/300x225/3b82f6/ffffff?text=Fish+Catch'; }}
             />
             <img
-              src="https://images.unsplash.com/photo-1504309092620-4d0ec726efa4?w=400&h=300&fit=crop&q=80"
+              src="/images/catch3.jpg"
               alt="Proud fisherman showing catch"
               className="w-48 h-36 object-cover rounded shadow-md"
               onError={(e) => { (e.target as HTMLImageElement).src = 'https://placehold.co/300x225/3b82f6/ffffff?text=Fish+Catch'; }}
